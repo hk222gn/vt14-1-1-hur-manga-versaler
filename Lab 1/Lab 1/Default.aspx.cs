@@ -20,6 +20,8 @@ namespace Lab_1
             if (MainTextBox.Enabled == false)
             {
                 MainTextBox.Enabled = true;
+                MainTextBox.Text = "";
+                CapitalLabel.Text = "";
                 SubmitButton.Text = "Submit";
             }
             else
