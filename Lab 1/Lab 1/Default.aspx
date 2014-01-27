@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Lab_1.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Lab_1.Default" EnableViewState="False" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
     <div>
         <asp:TextBox ID="MainTextBox" runat="server" TextMode="MultiLine"></asp:TextBox>
 
-        <asp:Button ID="SubmitButton" runat="server" Text="Send" OnClick="SubmitButton_Click" />
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" ViewStateMode="Enabled" />
 
         <asp:Label ID="CapitalLabel" runat="server"></asp:Label>
     </div>

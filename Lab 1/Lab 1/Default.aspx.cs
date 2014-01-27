@@ -17,14 +17,7 @@ namespace Lab_1
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
             
-            if (MainTextBox.Enabled == false)
-            {
-                MainTextBox.Enabled = true;
-                MainTextBox.Text = "";
-                CapitalLabel.Text = "";
-                SubmitButton.Text = "Submit";
-            }
-            else
+            if (MainTextBox.Text != "")
             {
                 int capitals;
 
@@ -36,6 +29,10 @@ namespace Lab_1
                 CapitalLabel.Text = String.Format("Det är {0} versaler i denna texten.", capitals.ToString());
 
                 SubmitButton.Text = "Clear";
+            }
+            else
+            {
+
             }
             
 
