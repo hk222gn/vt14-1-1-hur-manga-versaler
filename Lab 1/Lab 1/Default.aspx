@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:TextBox ID="MainTextBox" runat="server"></asp:TextBox>
+        <asp:TextBox ID="MainTextBox" runat="server" TextMode="MultiLine"></asp:TextBox>
 
         <asp:Button ID="SubmitButton" runat="server" Text="Send" OnClick="SubmitButton_Click" />
 
