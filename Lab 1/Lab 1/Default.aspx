@@ -11,7 +11,7 @@
     <div>
         <asp:TextBox ID="MainTextBox" runat="server" TextMode="MultiLine"></asp:TextBox>
 
-        <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" ViewStateMode="Enabled" />
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click"/>
 
         <asp:Label ID="CapitalLabel" runat="server"></asp:Label>
     </div>
